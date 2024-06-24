@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "dependencies": [
+    {
+      "source": {
+        "git": {
+          "remote": "git@github.com:Badbond/renovate-reproduction-case-jsonnet-ssh.git"
+        }
+      },
+      "version": "1.0.0"
+    }
+  ],
+  "legacyImports": true
+}

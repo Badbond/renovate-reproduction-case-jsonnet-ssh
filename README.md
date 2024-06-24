@@ -1,17 +1,15 @@
-# minimal-reproduction-template
-
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
-
-Then replace the current `h1` with the Renovate Issue/Discussion number.
+# Renovate Jsonnet bug with SSH-based Git imports
 
 ## Current behavior
 
-Explain the current behavior here.
+Renovate is not able to extract dependencies from `jsonnetfile.json` as it can
+not parse the SSH-based Git URL. 
 
 ## Expected behavior
 
-Explain the expected behavior here.
+Renovate opens an upgrade PR for the Jsonnet dependency for the same repository
+from 1.0.0 to 1.1.0.
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+https://github.com/renovatebot/renovate/discussions/29782.
